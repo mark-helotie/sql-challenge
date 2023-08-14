@@ -16,3 +16,10 @@ Within this repository, I have included the following:
 
 
 ![image](https://github.com/mark-helotie/sql-challenge/assets/43053988/8a692cdb-0c6e-45a2-9774-1054f8d3ab87)
+
+
+Additional files uploaded:
+
+  - data folder with the original CSV files for input into SQL
+  - ERD-script.txt == text-based script that was input into QuickDBD to obtain results
+  - Module9 Original Instructions.docx == Word doc of challenge requirements
