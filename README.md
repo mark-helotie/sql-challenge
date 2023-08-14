@@ -10,7 +10,9 @@ For this project, you’ll design the tables to hold the data from the CSV files
 
 Within this repository, I have included the following:
 
- - ERD-diagram.png == image file of ERD (from QuickDBD)
+ - ERD-diagram.png == image file of ERD (from QuickDBD) -- also included below
  - 1-Schemata.sql == SQL script to create tables
  - 2-DataAnalysis.sql == SQL script with queries
 
+
+![image](https://github.com/mark-helotie/sql-challenge/assets/43053988/8a692cdb-0c6e-45a2-9774-1054f8d3ab87)
