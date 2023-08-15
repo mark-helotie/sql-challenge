@@ -41,7 +41,9 @@ CREATE TABLE "dept_manager" (
     CONSTRAINT "pk_dept_mgr" PRIMARY KEY ("emp_no")
 );
 
--- Now do CSV imports -- THEN come back to set FKs
+------------------------------------------------------
+-- Now do the CSV imports; THEN come back to set FKs
+------------------------------------------------------
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title_id" FOREIGN KEY("emp_title_id")
 REFERENCES "titles" ("title_id");
@@ -60,3 +62,4 @@ REFERENCES "departments" ("dept_no");
 
 ALTER TABLE "dept_manager" ADD CONSTRAINT "fk_dept_manager_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
+
